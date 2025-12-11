@@ -1,0 +1,102 @@
+.sale-banner * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.sale-banner__bg {
+    background-size: auto;
+    background-position: bottom;
+}
+
+.sale-banner__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 60px;
+    color: #fff;
+    min-height: 160px;
+    gap: 32px;
+}
+
+.sale-banner__left {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.sale-banner__heading-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 390px;
+}
+
+.sale-banner__heading {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    color: #fff;
+}
+
+.sale-banner__subheading {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    color: #fff;
+}
+
+.sale-banner__text {
+    font-size: 24px;
+    margin: 0 0 12px;
+}
+
+.sale-banner__button {
+    display: inline-block;
+    padding: 14px 28px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    display: flex;
+    align-items: center;
+}
+
+.sale-banner__right {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 24px;
+    white-space: nowrap;
+}
+
+.sale-banner__icon {
+    margin-right: 6px;
+    width: 34px;
+    height: 34px;
+}
+
+.separator {
+    margin: 0 6px;
+    font-weight: 600;
+}
+
+.sale-banner__ended {
+    font-size: 13px;
+    font-style: italic;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .sale-banner__content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .sale-banner__right {
+        margin-top: 12px;
+    }
+}
